@@ -170,7 +170,8 @@ function follower(){
 
       });
     }
-function loader(){
+    function loader(){
+    document.body.style.overflow = "hidden";
     gsap.from("#counting", {
         opacity : 0,
         delay : .2
