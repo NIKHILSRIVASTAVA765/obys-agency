@@ -278,6 +278,9 @@ body{
     text-transform: uppercase;
 
 }
+#full-menu-logo{
+    width : 5vw;
+}
 #menu-part1{
     padding-top: 4vw;
 
@@ -297,8 +300,8 @@ body{
     padding: 6vw 0 0 22vw;
 }
 #menu-after{
-    height : 2vh;
-    width : 2vw;
+    height : 1.5vh;
+    width : 1.5vw;
 }
 #menu-after button {
     background: transparent;
