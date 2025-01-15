@@ -237,7 +237,7 @@ function sheryAnimation(){
 function removeAnimation(){
     const width = window.innerWidth;
     console.log(`${width}`)
-    if(width <= 600){
+    if(width <= 600 || 800){
         smoothScroll();
         loader();
         counter();
