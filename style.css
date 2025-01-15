@@ -1583,7 +1583,7 @@ body{
     }
 
 }
-@media (min-width : 601px) and (max-width : 800px){
+@media (min-width : 601px) and (max-width : 820px){
 
 
     .line h1{
@@ -1606,7 +1606,7 @@ body{
         gap : 3vw;
     
     }
-    
+
     #crsr{
         display  : none;
     }
@@ -1646,18 +1646,14 @@ body{
         display : -webkit-box;
         display : -ms-flexbox;
         display : flex;
+        flex-direction : column;
     }
     #top-menu{
         height : 10vh;
         width : 100%;
-        display : -webkit-box;
-        display : -ms-flexbox;
-        display : flex;
-        -webkit-box-align: center;
-            -ms-flex-align: center;
-                align-items: center;
-        gap : 2vw;
+
         padding : 0 5vw;
+        justify-content: space-between;
     }
     #top-menu img{
         width : 100%;
@@ -1666,14 +1662,12 @@ body{
            object-fit: cover;
     }
     #full-menu h1{
-        color : white;
-        font-family : "plain light";
-        font-size : 7vw;
-        text-transform: uppercase;
+        font-size : 10vw;
+        margin-bottom : 5vw;
     
     }
     #full-menu-logo{
-        width : 5vw;
+        width : 12vw;
     }
     #menu-part1{
         padding-top: 4vw;
@@ -1691,11 +1685,13 @@ body{
         -webkit-box-direction: normal;
             -ms-flex-direction: column;
                 flex-direction: column;
-        padding: 6vw 0 0 22vw;
+        padding: 0vw 0 0 0vw;
+        margin-top : 30vw;
+        
     }
     #menu-after{
-        height : 1.5vh;
-        width : 1.5vw;
+        height : 3vh;
+        width : 3vw;
     }
     #menu-after button {
         background: transparent;
@@ -1710,20 +1706,22 @@ body{
     
     }
     #menu-part2 h2{
-        font-size : 1.5vw;
-        font-family: "plain light";
-        font-weight: 500;
+        font-size : 5vw;
+
+        text-decoration: underline;
     
     }
     #menu-part2 h6{
-        font-size : .8vw;
+        font-size : 3vw;
         font-family: "plain light";
         margin-bottom : 1.5vw;
         font-weight:500;
     }
-    #first-box,#second-box,#third-box{
+    #first-box,#second-box{
         margin-bottom: 1.5vw;
+        display : none;
     }
+
     #dot-menu{
         width : 100%;
         height : 100%;
@@ -1731,11 +1729,8 @@ body{
            object-fit : cover;
     }
     #logo{
-        height: 4.7vw;
-        width : -webkit-fit-content;
-        width : -moz-fit-content;
-        width : fit-content;
-        margin-top : .3vw;
+        height: 9vw;
+
     }
     #logo img{
         height : 100%;
@@ -1995,6 +1990,162 @@ body{
         top : -2%;
         left : 25%;
         font-size: 4vw;
+    }
+
+    #page4 h1::before{
+        content : "03";
+        font-family: "silk serif";
+        position : absolute;
+        top : -5%;
+        left : 30%;
+        font-size: 3vw;
+        font-weight: 500;
+    }
+    #page4 {
+        min-height : 100vh;
+        margin-top: 0vw;
+
+    }
+    #page4-content{
+        margin-left  : 0vw;
+
+    }
+    #page4-img{
+        height : 90vw;
+        width : 90vw;
+        position : relative;
+        padding : 10vw;
+    }
+    #page4-img img{
+        height : 100%;
+        width : 100%;
+        -o-object-fit: cover;
+           object-fit: cover;
+    }
+    #first-p p{
+        font-size : 2.5vw;
+        width : 100vw;
+        line-height: 3.5vw;
+        font-weight: 400;  
+        padding : 2vw;
+    }
+    #second-p p{
+        font-size : 2.5vw;
+        font-family : "plain light";
+        line-height: 2.5vh;
+        font-weight: 400;
+        
+    }
+    #page4-part2{
+
+        flex-direction : column;
+        gap : 32vw;
+
+    }
+    #second-p{
+        padding : 2vw;
+        width : 100vw;
+        margin-left : 0vw;
+        
+    }
+    #blue-content{
+
+        height : 65vw;
+        width : 70vw;
+
+        top : 60%;
+        left : 25%;
+        
+    }
+    .column{
+        height : 10.5vw;
+        width : 100%;
+        display : -webkit-box;
+        display : -ms-flexbox;
+
+    }
+    .column h3{
+
+        font-size : 2.5vw;
+        font-weight: 600;
+    }
+    .column h5{
+        width : 38%;
+        font-size : 2vw;
+    
+    }
+    #page5{
+        min-height : 35vh;
+    }
+    #page5 h5{
+        font-size : 3vw;
+    }
+    .elem, .elem2{
+        overflow-x : auto;
+        white-space : nowrap;
+        margin : -3vw;
+        
+    }
+    .elem h1, .elem2 h1{
+
+        font-size: 12vw;
+        font-weight: 400;
+    
+    }
+
+    #page6{
+        margin-top: 15vw;
+        min-height : 40vh;
+        width : 100%;
+        background-color :#151515; 
+        position : relative;
+    }
+    #page6 h1{
+        font-size : 10vw;
+    }
+    #page6 h1::before{
+        content : "04";
+        font-family: "silk serif";
+        position : absolute;
+        left : 20%;
+        top : -10%;
+        font-size: 4vw;
+        font-weight: 500;
+    }
+    #footer{
+        display : -webkit-box;
+        display : -ms-flexbox;
+        display : flex;
+        margin-left : 0vw;
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+    #footer{
+        font-family : "plain light";
+        padding : 5vw;
+    }
+    #email{
+        margin-right : 6vw;
+    }
+    #social h6,#Address h6,#email h6{
+        font-size : 2vw;
+        font-weight: 500;
+        margin-bottom: 1vw;
+    }
+    
+    #social h2,#Address h2, #email h2{
+        font-weight: 500;
+        font-size: 2.8vw;
+    }
+    #email h2{
+        text-decoration: underline;
+    }
+    #page6 h3{
+        font-weight: 500;
+        margin-left: 27vw;
+        margin-bottom: 3vw;
+        margin-top: -1vw;
     }
     
 }

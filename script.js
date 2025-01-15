@@ -235,15 +235,16 @@ function sheryAnimation(){
 }
     
 function removeAnimation(){
-    const width = window.innerWidth;
-    console.log(`${width}`)
-    if(width <= 600 || 800){
+    console.log(window.innerWidth)
+    if(window.innerWidth <= 600
+        || window.innerWidth <= 820
+    ){
         smoothScroll();
         loader();
         counter();
         contentLoad();
     }
-    else if(width > 600){
+    else if(window.innerWidth > 820){
     
     playBtnAnimation();
     smoothScroll();
